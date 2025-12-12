@@ -6,7 +6,7 @@
     <div class="card-body register-card-body">
       <p class="register-box-msg">Register a new membership</p>
 
-      <form action="<?= base_url('register'); ?>" method="post">
+      <form action="<?= base_url('register'); ?>" method="post" enctype="multipart/form-data">
         <div class="input-group mb-3">
           <input type="text" class="form-control <?= form_error('name') ? 'is-invalid' : '' ?>" name="name" placeholder="Name" title="<?= strip_tags(form_error('name')) ?>" value="<?= set_value('name') ?>" />
           <div class="input-group-text">
@@ -26,6 +26,10 @@
           </div>
         </div>
         <div class="row">
+          <div class="col-12 mb-3">
+            <label for="image" class="form-label">Avatar (jpg/png, max 2MB)</label>
+            <input type="file" name="image" id="image" class="form-control">
+          </div>
           <div class="col-8">
             <div class="form-check">
               <!-- <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />

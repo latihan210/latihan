@@ -630,3 +630,285 @@ INFO - 2025-12-12 02:45:44 --> File loaded: C:\Users\Yosep Solahudin\Downloads\P
 INFO - 2025-12-12 02:45:44 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/template.php
 INFO - 2025-12-12 02:45:44 --> Final output sent to browser
 DEBUG - 2025-12-12 02:45:44 --> Total execution time: 0.2827
+INFO - 2025-12-12 03:11:04 --> Config Class Initialized
+INFO - 2025-12-12 03:11:04 --> Hooks Class Initialized
+DEBUG - 2025-12-12 03:11:04 --> UTF-8 Support Enabled
+INFO - 2025-12-12 03:11:04 --> Utf8 Class Initialized
+INFO - 2025-12-12 03:11:04 --> URI Class Initialized
+DEBUG - 2025-12-12 03:11:04 --> No URI present. Default controller set.
+INFO - 2025-12-12 03:11:04 --> Router Class Initialized
+INFO - 2025-12-12 03:11:04 --> Output Class Initialized
+INFO - 2025-12-12 03:11:04 --> Security Class Initialized
+DEBUG - 2025-12-12 03:11:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-12-12 03:11:04 --> Input Class Initialized
+INFO - 2025-12-12 03:11:04 --> Language Class Initialized
+INFO - 2025-12-12 03:11:04 --> Loader Class Initialized
+INFO - 2025-12-12 03:11:04 --> Helper loaded: url_helper
+INFO - 2025-12-12 03:11:04 --> Helper loaded: file_helper
+INFO - 2025-12-12 03:11:04 --> Database Driver Class Initialized
+INFO - 2025-12-12 03:11:04 --> Migrations Class Initialized
+INFO - 2025-12-12 03:11:04 --> Language file loaded: language/english/migration_lang.php
+INFO - 2025-12-12 03:11:04 --> Database Forge Class Initialized
+DEBUG - 2025-12-12 03:11:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-12-12 03:11:04 --> Session: Class initialized using 'files' driver.
+INFO - 2025-12-12 03:11:04 --> Controller Class Initialized
+INFO - 2025-12-12 03:11:04 --> Model "User_model" initialized
+INFO - 2025-12-12 03:11:04 --> Helper loaded: form_helper
+INFO - 2025-12-12 03:11:04 --> Form Validation Class Initialized
+INFO - 2025-12-12 03:11:04 --> Config Class Initialized
+INFO - 2025-12-12 03:11:04 --> Hooks Class Initialized
+DEBUG - 2025-12-12 03:11:04 --> UTF-8 Support Enabled
+INFO - 2025-12-12 03:11:04 --> Utf8 Class Initialized
+INFO - 2025-12-12 03:11:04 --> URI Class Initialized
+INFO - 2025-12-12 03:11:04 --> Router Class Initialized
+INFO - 2025-12-12 03:11:04 --> Output Class Initialized
+INFO - 2025-12-12 03:11:04 --> Security Class Initialized
+DEBUG - 2025-12-12 03:11:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-12-12 03:11:04 --> Input Class Initialized
+INFO - 2025-12-12 03:11:04 --> Language Class Initialized
+INFO - 2025-12-12 03:11:04 --> Loader Class Initialized
+INFO - 2025-12-12 03:11:04 --> Helper loaded: url_helper
+INFO - 2025-12-12 03:11:04 --> Helper loaded: file_helper
+INFO - 2025-12-12 03:11:04 --> Database Driver Class Initialized
+INFO - 2025-12-12 03:11:04 --> Migrations Class Initialized
+INFO - 2025-12-12 03:11:04 --> Language file loaded: language/english/migration_lang.php
+INFO - 2025-12-12 03:11:04 --> Database Forge Class Initialized
+DEBUG - 2025-12-12 03:11:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-12-12 03:11:04 --> Session: Class initialized using 'files' driver.
+INFO - 2025-12-12 03:11:04 --> Controller Class Initialized
+INFO - 2025-12-12 03:11:04 --> Model "User_model" initialized
+INFO - 2025-12-12 03:11:04 --> Helper loaded: form_helper
+INFO - 2025-12-12 03:11:04 --> Form Validation Class Initialized
+INFO - 2025-12-12 03:11:04 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/header.php
+INFO - 2025-12-12 03:11:04 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\auth/login.php
+INFO - 2025-12-12 03:11:04 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/body.php
+INFO - 2025-12-12 03:11:04 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/footer.php
+INFO - 2025-12-12 03:11:04 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/template.php
+INFO - 2025-12-12 03:11:04 --> Final output sent to browser
+DEBUG - 2025-12-12 03:11:04 --> Total execution time: 0.2998
+INFO - 2025-12-12 03:11:12 --> Config Class Initialized
+INFO - 2025-12-12 03:11:12 --> Hooks Class Initialized
+DEBUG - 2025-12-12 03:11:12 --> UTF-8 Support Enabled
+INFO - 2025-12-12 03:11:12 --> Utf8 Class Initialized
+INFO - 2025-12-12 03:11:12 --> URI Class Initialized
+INFO - 2025-12-12 03:11:12 --> Router Class Initialized
+INFO - 2025-12-12 03:11:12 --> Output Class Initialized
+INFO - 2025-12-12 03:11:12 --> Security Class Initialized
+DEBUG - 2025-12-12 03:11:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-12-12 03:11:12 --> Input Class Initialized
+INFO - 2025-12-12 03:11:12 --> Language Class Initialized
+INFO - 2025-12-12 03:11:12 --> Loader Class Initialized
+INFO - 2025-12-12 03:11:12 --> Helper loaded: url_helper
+INFO - 2025-12-12 03:11:12 --> Helper loaded: file_helper
+INFO - 2025-12-12 03:11:12 --> Database Driver Class Initialized
+INFO - 2025-12-12 03:11:12 --> Migrations Class Initialized
+INFO - 2025-12-12 03:11:12 --> Language file loaded: language/english/migration_lang.php
+INFO - 2025-12-12 03:11:12 --> Database Forge Class Initialized
+DEBUG - 2025-12-12 03:11:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-12-12 03:11:12 --> Session: Class initialized using 'files' driver.
+INFO - 2025-12-12 03:11:12 --> Controller Class Initialized
+INFO - 2025-12-12 03:11:12 --> Model "User_model" initialized
+INFO - 2025-12-12 03:11:12 --> Helper loaded: form_helper
+INFO - 2025-12-12 03:11:12 --> Form Validation Class Initialized
+INFO - 2025-12-12 03:11:12 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2025-12-12 03:11:12 --> Config Class Initialized
+INFO - 2025-12-12 03:11:12 --> Hooks Class Initialized
+DEBUG - 2025-12-12 03:11:12 --> UTF-8 Support Enabled
+INFO - 2025-12-12 03:11:12 --> Utf8 Class Initialized
+INFO - 2025-12-12 03:11:12 --> URI Class Initialized
+INFO - 2025-12-12 03:11:12 --> Router Class Initialized
+INFO - 2025-12-12 03:11:12 --> Output Class Initialized
+INFO - 2025-12-12 03:11:12 --> Security Class Initialized
+DEBUG - 2025-12-12 03:11:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-12-12 03:11:12 --> Input Class Initialized
+INFO - 2025-12-12 03:11:12 --> Language Class Initialized
+INFO - 2025-12-12 03:11:12 --> Loader Class Initialized
+INFO - 2025-12-12 03:11:12 --> Helper loaded: url_helper
+INFO - 2025-12-12 03:11:12 --> Helper loaded: file_helper
+INFO - 2025-12-12 03:11:12 --> Database Driver Class Initialized
+INFO - 2025-12-12 03:11:12 --> Migrations Class Initialized
+INFO - 2025-12-12 03:11:12 --> Language file loaded: language/english/migration_lang.php
+INFO - 2025-12-12 03:11:13 --> Database Forge Class Initialized
+DEBUG - 2025-12-12 03:11:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-12-12 03:11:13 --> Session: Class initialized using 'files' driver.
+INFO - 2025-12-12 03:11:13 --> Controller Class Initialized
+INFO - 2025-12-12 03:11:13 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/header.php
+INFO - 2025-12-12 03:11:13 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/topnavbar.php
+INFO - 2025-12-12 03:11:13 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/sidenavbar.php
+INFO - 2025-12-12 10:11:13 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\backend/dashboard.php
+INFO - 2025-12-12 10:11:13 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/body.php
+INFO - 2025-12-12 10:11:13 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/footer.php
+INFO - 2025-12-12 10:11:13 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/template.php
+INFO - 2025-12-12 10:11:13 --> Final output sent to browser
+DEBUG - 2025-12-12 10:11:13 --> Total execution time: 0.3891
+INFO - 2025-12-12 06:00:17 --> Config Class Initialized
+INFO - 2025-12-12 06:00:17 --> Hooks Class Initialized
+DEBUG - 2025-12-12 06:00:17 --> UTF-8 Support Enabled
+INFO - 2025-12-12 06:00:17 --> Utf8 Class Initialized
+INFO - 2025-12-12 06:00:17 --> URI Class Initialized
+DEBUG - 2025-12-12 06:00:18 --> No URI present. Default controller set.
+INFO - 2025-12-12 06:00:18 --> Router Class Initialized
+INFO - 2025-12-12 06:00:18 --> Output Class Initialized
+INFO - 2025-12-12 06:00:18 --> Security Class Initialized
+DEBUG - 2025-12-12 06:00:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-12-12 06:00:18 --> Input Class Initialized
+INFO - 2025-12-12 06:00:18 --> Language Class Initialized
+INFO - 2025-12-12 06:00:18 --> Loader Class Initialized
+INFO - 2025-12-12 06:00:18 --> Helper loaded: url_helper
+INFO - 2025-12-12 06:00:18 --> Helper loaded: file_helper
+INFO - 2025-12-12 06:00:18 --> Database Driver Class Initialized
+INFO - 2025-12-12 06:00:18 --> Migrations Class Initialized
+INFO - 2025-12-12 06:00:18 --> Language file loaded: language/english/migration_lang.php
+INFO - 2025-12-12 06:00:18 --> Database Forge Class Initialized
+DEBUG - 2025-12-12 06:00:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-12-12 06:00:18 --> Session: Class initialized using 'files' driver.
+INFO - 2025-12-12 06:00:18 --> Controller Class Initialized
+INFO - 2025-12-12 06:00:18 --> Model "User_model" initialized
+INFO - 2025-12-12 06:00:18 --> Helper loaded: form_helper
+INFO - 2025-12-12 06:00:18 --> Form Validation Class Initialized
+INFO - 2025-12-12 06:00:19 --> Config Class Initialized
+INFO - 2025-12-12 06:00:19 --> Hooks Class Initialized
+DEBUG - 2025-12-12 06:00:19 --> UTF-8 Support Enabled
+INFO - 2025-12-12 06:00:19 --> Utf8 Class Initialized
+INFO - 2025-12-12 06:00:19 --> URI Class Initialized
+INFO - 2025-12-12 06:00:19 --> Router Class Initialized
+INFO - 2025-12-12 06:00:19 --> Output Class Initialized
+INFO - 2025-12-12 06:00:19 --> Security Class Initialized
+DEBUG - 2025-12-12 06:00:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-12-12 06:00:19 --> Input Class Initialized
+INFO - 2025-12-12 06:00:19 --> Language Class Initialized
+INFO - 2025-12-12 06:00:19 --> Loader Class Initialized
+INFO - 2025-12-12 06:00:19 --> Helper loaded: url_helper
+INFO - 2025-12-12 06:00:19 --> Helper loaded: file_helper
+INFO - 2025-12-12 06:00:19 --> Database Driver Class Initialized
+INFO - 2025-12-12 06:00:19 --> Migrations Class Initialized
+INFO - 2025-12-12 06:00:19 --> Language file loaded: language/english/migration_lang.php
+INFO - 2025-12-12 06:00:19 --> Database Forge Class Initialized
+DEBUG - 2025-12-12 06:00:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-12-12 06:00:20 --> Session: Class initialized using 'files' driver.
+INFO - 2025-12-12 06:00:20 --> Controller Class Initialized
+INFO - 2025-12-12 06:00:20 --> Model "User_model" initialized
+INFO - 2025-12-12 06:00:20 --> Helper loaded: form_helper
+INFO - 2025-12-12 06:00:20 --> Form Validation Class Initialized
+INFO - 2025-12-12 06:00:20 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/header.php
+INFO - 2025-12-12 06:00:20 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\auth/login.php
+INFO - 2025-12-12 06:00:20 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/body.php
+INFO - 2025-12-12 06:00:20 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/footer.php
+INFO - 2025-12-12 06:00:20 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/template.php
+INFO - 2025-12-12 06:00:20 --> Final output sent to browser
+DEBUG - 2025-12-12 06:00:20 --> Total execution time: 1.8036
+INFO - 2025-12-12 06:00:33 --> Config Class Initialized
+INFO - 2025-12-12 06:00:33 --> Hooks Class Initialized
+DEBUG - 2025-12-12 06:00:33 --> UTF-8 Support Enabled
+INFO - 2025-12-12 06:00:33 --> Utf8 Class Initialized
+INFO - 2025-12-12 06:00:33 --> URI Class Initialized
+INFO - 2025-12-12 06:00:33 --> Router Class Initialized
+INFO - 2025-12-12 06:00:33 --> Output Class Initialized
+INFO - 2025-12-12 06:00:33 --> Security Class Initialized
+DEBUG - 2025-12-12 06:00:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-12-12 06:00:33 --> Input Class Initialized
+INFO - 2025-12-12 06:00:33 --> Language Class Initialized
+INFO - 2025-12-12 06:00:33 --> Loader Class Initialized
+INFO - 2025-12-12 06:00:34 --> Helper loaded: url_helper
+INFO - 2025-12-12 06:00:34 --> Helper loaded: file_helper
+INFO - 2025-12-12 06:00:34 --> Database Driver Class Initialized
+INFO - 2025-12-12 06:00:34 --> Migrations Class Initialized
+INFO - 2025-12-12 06:00:34 --> Language file loaded: language/english/migration_lang.php
+INFO - 2025-12-12 06:00:34 --> Database Forge Class Initialized
+DEBUG - 2025-12-12 06:00:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-12-12 06:00:34 --> Session: Class initialized using 'files' driver.
+INFO - 2025-12-12 06:00:34 --> Controller Class Initialized
+INFO - 2025-12-12 06:00:34 --> Model "User_model" initialized
+INFO - 2025-12-12 06:00:34 --> Helper loaded: form_helper
+INFO - 2025-12-12 06:00:34 --> Form Validation Class Initialized
+INFO - 2025-12-12 06:00:34 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2025-12-12 06:00:34 --> Config Class Initialized
+INFO - 2025-12-12 06:00:34 --> Hooks Class Initialized
+DEBUG - 2025-12-12 06:00:34 --> UTF-8 Support Enabled
+INFO - 2025-12-12 06:00:34 --> Utf8 Class Initialized
+INFO - 2025-12-12 06:00:34 --> URI Class Initialized
+INFO - 2025-12-12 06:00:34 --> Router Class Initialized
+INFO - 2025-12-12 06:00:34 --> Output Class Initialized
+INFO - 2025-12-12 06:00:34 --> Security Class Initialized
+DEBUG - 2025-12-12 06:00:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-12-12 06:00:34 --> Input Class Initialized
+INFO - 2025-12-12 06:00:34 --> Language Class Initialized
+INFO - 2025-12-12 06:00:34 --> Loader Class Initialized
+INFO - 2025-12-12 06:00:34 --> Helper loaded: url_helper
+INFO - 2025-12-12 06:00:34 --> Helper loaded: file_helper
+INFO - 2025-12-12 06:00:34 --> Database Driver Class Initialized
+INFO - 2025-12-12 06:00:34 --> Migrations Class Initialized
+INFO - 2025-12-12 06:00:34 --> Language file loaded: language/english/migration_lang.php
+INFO - 2025-12-12 06:00:34 --> Database Forge Class Initialized
+DEBUG - 2025-12-12 06:00:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-12-12 06:00:35 --> Session: Class initialized using 'files' driver.
+INFO - 2025-12-12 06:00:35 --> Controller Class Initialized
+INFO - 2025-12-12 06:00:35 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/header.php
+INFO - 2025-12-12 06:00:35 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/topnavbar.php
+INFO - 2025-12-12 06:00:35 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/sidenavbar.php
+INFO - 2025-12-12 13:00:35 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\backend/dashboard.php
+INFO - 2025-12-12 13:00:35 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/body.php
+INFO - 2025-12-12 13:00:35 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/footer.php
+INFO - 2025-12-12 13:00:35 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/template.php
+INFO - 2025-12-12 13:00:35 --> Final output sent to browser
+DEBUG - 2025-12-12 13:00:35 --> Total execution time: 0.3826
+INFO - 2025-12-12 06:00:44 --> Config Class Initialized
+INFO - 2025-12-12 06:00:44 --> Hooks Class Initialized
+DEBUG - 2025-12-12 06:00:44 --> UTF-8 Support Enabled
+INFO - 2025-12-12 06:00:44 --> Utf8 Class Initialized
+INFO - 2025-12-12 06:00:44 --> URI Class Initialized
+INFO - 2025-12-12 06:00:44 --> Router Class Initialized
+INFO - 2025-12-12 06:00:44 --> Output Class Initialized
+INFO - 2025-12-12 06:00:44 --> Security Class Initialized
+DEBUG - 2025-12-12 06:00:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-12-12 06:00:44 --> Input Class Initialized
+INFO - 2025-12-12 06:00:44 --> Language Class Initialized
+INFO - 2025-12-12 06:00:44 --> Loader Class Initialized
+INFO - 2025-12-12 06:00:44 --> Helper loaded: url_helper
+INFO - 2025-12-12 06:00:44 --> Helper loaded: file_helper
+INFO - 2025-12-12 06:00:44 --> Database Driver Class Initialized
+INFO - 2025-12-12 06:00:45 --> Migrations Class Initialized
+INFO - 2025-12-12 06:00:45 --> Language file loaded: language/english/migration_lang.php
+INFO - 2025-12-12 06:00:45 --> Database Forge Class Initialized
+DEBUG - 2025-12-12 06:00:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-12-12 06:00:45 --> Session: Class initialized using 'files' driver.
+INFO - 2025-12-12 06:00:45 --> Controller Class Initialized
+INFO - 2025-12-12 06:00:45 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/header.php
+INFO - 2025-12-12 06:00:45 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/topnavbar.php
+INFO - 2025-12-12 06:00:45 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/sidenavbar.php
+INFO - 2025-12-12 13:00:45 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\backend/dashboard.php
+INFO - 2025-12-12 13:00:45 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/body.php
+INFO - 2025-12-12 13:00:45 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/footer.php
+INFO - 2025-12-12 13:00:45 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/template.php
+INFO - 2025-12-12 13:00:45 --> Final output sent to browser
+DEBUG - 2025-12-12 13:00:45 --> Total execution time: 0.5227
+INFO - 2025-12-12 06:00:48 --> Config Class Initialized
+INFO - 2025-12-12 06:00:48 --> Hooks Class Initialized
+DEBUG - 2025-12-12 06:00:48 --> UTF-8 Support Enabled
+INFO - 2025-12-12 06:00:48 --> Utf8 Class Initialized
+INFO - 2025-12-12 06:00:48 --> URI Class Initialized
+INFO - 2025-12-12 06:00:48 --> Router Class Initialized
+INFO - 2025-12-12 06:00:48 --> Output Class Initialized
+INFO - 2025-12-12 06:00:48 --> Security Class Initialized
+DEBUG - 2025-12-12 06:00:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-12-12 06:00:48 --> Input Class Initialized
+INFO - 2025-12-12 06:00:48 --> Language Class Initialized
+INFO - 2025-12-12 06:00:48 --> Loader Class Initialized
+INFO - 2025-12-12 06:00:48 --> Helper loaded: url_helper
+INFO - 2025-12-12 06:00:48 --> Helper loaded: file_helper
+INFO - 2025-12-12 06:00:48 --> Database Driver Class Initialized
+INFO - 2025-12-12 06:00:48 --> Migrations Class Initialized
+INFO - 2025-12-12 06:00:48 --> Language file loaded: language/english/migration_lang.php
+INFO - 2025-12-12 06:00:48 --> Database Forge Class Initialized
+DEBUG - 2025-12-12 06:00:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-12-12 06:00:48 --> Session: Class initialized using 'files' driver.
+INFO - 2025-12-12 06:00:48 --> Controller Class Initialized
+INFO - 2025-12-12 06:00:48 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/header.php
+INFO - 2025-12-12 06:00:48 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/topnavbar.php
+INFO - 2025-12-12 06:00:48 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/sidenavbar.php
+INFO - 2025-12-12 13:00:48 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\backend/dashboard.php
+INFO - 2025-12-12 13:00:48 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/body.php
+INFO - 2025-12-12 13:00:48 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/footer.php
+INFO - 2025-12-12 13:00:48 --> File loaded: C:\Users\Yosep Solahudin\Downloads\Project\latihan\source\application\views\partials/template.php
+INFO - 2025-12-12 13:00:48 --> Final output sent to browser
+DEBUG - 2025-12-12 13:00:48 --> Total execution time: 0.3369
