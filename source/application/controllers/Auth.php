@@ -75,8 +75,7 @@ class Auth extends CI_Controller
 		$user = $this->user->getByEmail($email);
 
 		if (!$user) {
-			// Log and increment failed attempts (DB)
-			log_message('warning', "Login failed: email not found ({$email}) from {$ip}");
+			// Increment failed attempts (DB) - logged to DB only to avoid noisy file logs
 			$locked = null;
 			$attempts_new = $attempts + 1;
 			if ($attempts_new >= 5) {
@@ -92,8 +91,7 @@ class Auth extends CI_Controller
 		}
 
 		if (!password_verify($password, $user->password)) {
-			// Incorrect password: increment failed attempts and log (DB)
-			log_message('warning', "Login failed: wrong password for email {$email} from {$ip}");
+			// Incorrect password: increment failed attempts and log (DB) - avoid writing warning to file logs
 			$locked = null;
 			$attempts_new = $attempts + 1;
 			if ($attempts_new >= 5) {
