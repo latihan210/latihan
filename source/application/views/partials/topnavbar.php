@@ -2,7 +2,7 @@
 setlocale(LC_TIME, 'id_ID.UTF-8');
 
 if (strtolower($main_content) == 'dashboard') {
-    $title_page = '<i class="bi bi-calendar3 mr-2"></i> ' . strftime('%d %B %Y');
+    $date = '<i class="bi bi-calendar3 mr-2"></i> ' . strftime('%d %B %Y');
 }
 ?>
 
@@ -14,9 +14,9 @@ if (strtolower($main_content) == 'dashboard') {
                     <i class="bi bi-list"></i>
                 </a>
             </li>
-            <?php if (isset($title_page) && !empty($title_page)) { ?>
+            <?php if (isset($date) && !empty($date)) { ?>
                 <li class="nav-item d-none d-lg-inline-block">
-                    <a class="nav-link font-weight-bold" href="#"><?= $title_page; ?></a>
+                    <a class="nav-link font-weight-bold" href="#"><?= $date; ?></a>
                 </li>
             <?php } ?>
         </ul>
