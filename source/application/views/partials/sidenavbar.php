@@ -94,6 +94,7 @@ function nav_is_active($link, $current_path, $current_full)
                 }
                 // Render menu dinamis dari $menu_cms
                 if ($menu_cms && is_array($menu_cms)) {
+                    echo '<hr class="my-3" style="border-color: rgba(235,235,235,.85);">';
                     echo '<li class="nav-header">CMS</li>';
                     foreach ($menu_cms as $nav) {
                         if (!$nav || !is_array($nav)) continue;
@@ -110,8 +111,6 @@ function nav_is_active($link, $current_path, $current_full)
                             $a_class = 'nav-link' . ($parent_active ? ' active' : '');
                             echo '<li class="' . $li_class . '">';
                             echo '<a href="#" class="' . $a_class . '">';
-                            echo '<li class="nav-item">';
-                            echo '<a href="#" class="nav-link">';
                             echo '<i class="nav-icon ' . $nav['icon'] . '"></i>';
                             echo '<p>' . $nav['title'] . '<i class="nav-arrow bi bi-chevron-right"></i></p>';
                             echo '</a>';
@@ -140,9 +139,10 @@ function nav_is_active($link, $current_path, $current_full)
                     }
                 }
                 ?>
+                <hr class="my-3" style="border-color: rgba(235,235,235,.85);">
                 <li class="nav-item">
                     <a class="nav-link" href="<?= base_url('logout') ?>">
-                        <i class="bi bi-box-arrow-left text-white"></i>
+                        <i class="bi bi-box-arrow-left"></i>
                         <p>Logout</p>
                     </a>
                 </li>
