@@ -118,6 +118,8 @@ class Auth extends CI_Controller
 			'user_id' => $user->id,
 			'user_name' => $user->name,
 			'member_name' => isset($user->name) ? $user->name : '',
+			'image' => isset($user->image) ? $user->image : 'default.jpg',
+			'created_at' => isset($user->created_at) ? $user->created_at : '',
 			'logged_in' => true
 		];
 
@@ -157,7 +159,7 @@ class Auth extends CI_Controller
 			$image_path = null;
 			if (isset($_FILES['image']) && $_FILES['image']['error'] != UPLOAD_ERR_NO_FILE) {
 				// ensure upload dir exists
-				$upload_dir = FCPATH . 'uploads/avatars/';
+				$upload_dir = FCPATH . 'img/profile/';
 				if (!is_dir($upload_dir)) mkdir($upload_dir, 0755, true);
 				$config['upload_path'] = $upload_dir;
 				$config['allowed_types'] = 'jpg|jpeg|png';

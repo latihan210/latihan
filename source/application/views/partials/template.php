@@ -15,15 +15,15 @@ $body_class = 'layout-fixed sidebar-expand-lg sidebar-mini bg-body-tertiary app-
 if ($current_controller === 'auth') {
 
     if ($current_method === 'index' || $current_method === 'login') {
-        $body_class = 'login-page bg-body-secondary';
+        $body_class = 'login-page bg-dark-subtle';
     }
 
     if ($current_method === 'register') {
-        $body_class = 'register-page bg-body-secondary';
+        $body_class = 'register-page bg-dark-subtle';
     }
 
     if ($current_method === 'forgetpassword') {
-        $body_class = 'lockscreen bg-body-secondary';
+        $body_class = 'lockscreen bg-dark-subtle';
     }
 } elseif ($current_controller === 'backend') {
     // Jika halaman BACKEND → gunakan class body khusus backend
