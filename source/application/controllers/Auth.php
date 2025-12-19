@@ -17,7 +17,7 @@ class Auth extends CI_Controller
 	public function login()
 	{
 		if ($this->session->userdata('user_id')) {
-			redirect(base_url('backend'));
+			redirect(base_url('backend/dashboard'));
 		}
 
 		$this->form_validation->set_rules('email', 'Email', 'required|valid_email');
