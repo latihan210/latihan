@@ -142,7 +142,7 @@ function nav_is_active($link, $current_path, $current_full)
                 <hr class="my-3" style="border-color: rgba(235,235,235,.85);">
                 <li class="nav-item">
                     <a class="nav-link" href="<?= base_url('logout') ?>">
-                        <i class="bi bi-box-arrow-left"></i>
+                        <i class="nav-icon bi bi-box-arrow-left"></i>
                         <p>Logout</p>
                     </a>
                 </li>
