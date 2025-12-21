@@ -26,10 +26,6 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-12 mb-3">
-            <label for="image" class="form-label">Avatar (jpg/png, max 2MB)</label>
-            <input type="file" name="image" id="image" class="form-control">
-          </div>
           <div class="col-8">
             <div class="form-check">
               <!-- <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />

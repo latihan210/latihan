@@ -7,6 +7,7 @@ class Auth extends CI_Controller
 		parent::__construct();
 		$this->load->model('User_model', 'user');
 		$this->load->library('form_validation');
+		$this->load->helper('auth');
 	}
 
 	public function index()
@@ -155,41 +156,17 @@ class Auth extends CI_Controller
 			$email = htmlspecialchars($this->input->post('email', true));
 			$password = password_hash($this->input->post('password'), PASSWORD_DEFAULT);
 
-			// Handle avatar upload (optional)
-			$image_path = null;
-			if (isset($_FILES['image']) && $_FILES['image']['error'] != UPLOAD_ERR_NO_FILE) {
-				// ensure upload dir exists
-				$upload_dir = FCPATH . 'img/profile/';
-				if (!is_dir($upload_dir)) mkdir($upload_dir, 0755, true);
-				$config['upload_path'] = $upload_dir;
-				$config['allowed_types'] = 'jpg|jpeg|png';
-				$config['max_size'] = 2048; // 2MB
-				$config['encrypt_name'] = TRUE;
-				$this->load->library('upload', $config);
-				if ($this->upload->do_upload('image')) {
-					$upload_data = $this->upload->data();
-					// resize to max 300x300
-					$this->load->library('image_lib');
-					$resize_conf = array(
-						'image_library' => 'gd2',
-						'source_image' => $upload_data['full_path'],
-						'maintain_ratio' => TRUE,
-						'width' => 300,
-						'height' => 300
-					);
-					$this->image_lib->initialize($resize_conf);
-					$this->image_lib->resize();
-					$this->image_lib->clear();
-					$image_path = 'uploads/avatars/' . $upload_data['file_name'];
-				}
-			}
+			// determine role_id for default 'user'
+			$role = $this->user->getRoleByName('user');
+			$role_id = $role ? $role->id : null;
 
 			$data = [
-				'name' => $name,
-				'email' => $email,
-				'password' => $password,
+				'name'		=> $name,
+				'email' 	=> $email,
+				'password'  => $password,
 				'is_active' => 1,
-				'image' => $image_path
+				'image' 	=> 'default.jpg',
+				'role_id'   => $role_id
 			];
 
 			$this->user->insert($data);

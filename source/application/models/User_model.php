@@ -32,6 +32,17 @@ class User_model extends CI_Model
         return $this->db->get_where('users', ['reset_token' => $token])->row();
     }
 
+    // Roles
+    public function getRoleByName($name)
+    {
+        return $this->db->get_where('roles', ['name' => $name])->row();
+    }
+
+    public function getRoleById($id)
+    {
+        return $this->db->get_where('roles', ['id' => $id])->row();
+    }
+
     public function updatePasswordById($userId, $passwordHash)
     {
         return $this->db->where('id', $userId)->update('users', [
