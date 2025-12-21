@@ -55,6 +55,19 @@ function nav_is_active($link, $current_path, $current_full)
                         if ($sub_nav && is_array($sub_nav)) {
                             // check if any child is active
                             $parent_active = false;
+                            // check permission: optional 'roles' key on nav with array of allowed role names
+                            $show_parent = true;
+                            $user_role = null;
+                            if (function_exists('user_role')) {
+                                $r = user_role();
+                                if (is_object($r) && isset($r->name)) $user_role = $r->name;
+                                elseif (is_array($r) && isset($r['name'])) $user_role = $r['name'];
+                                else $user_role = $r;
+                            }
+                            if (isset($nav['roles']) && is_array($nav['roles'])) {
+                                $show_parent = in_array($user_role, $nav['roles']);
+                            }
+                            if (! $show_parent) continue;
                             foreach ($sub_nav as $sub_check) {
                                 if (nav_is_active($sub_check['link'], $current_path, $current_full)) {
                                     $parent_active = true;
@@ -71,6 +84,12 @@ function nav_is_active($link, $current_path, $current_full)
                             echo '<ul class="nav nav-treeview"' . ($parent_active ? ' style="display:block;"' : '') . '>';
                             foreach ($sub_nav as $sub) {
                                 if (!$sub || !is_array($sub)) continue;
+                                // sub-item role check
+                                if (isset($sub['roles']) && is_array($sub['roles']) && function_exists('user_role')) {
+                                    $r = user_role();
+                                    $role_name = is_object($r) && isset($r->name) ? $r->name : (is_array($r) && isset($r['name']) ? $r['name'] : $r);
+                                    if (! in_array($role_name, $sub['roles'])) continue;
+                                }
                                 $is_active = nav_is_active($sub['link'], $current_path, $current_full) ? ' active' : '';
                                 echo '<li class="nav-item">';
                                 echo '<a href="' . $sub['link'] . '" class="nav-link' . $is_active . '">';
@@ -82,6 +101,12 @@ function nav_is_active($link, $current_path, $current_full)
                             echo '</ul>';
                             echo '</li>';
                         } else {
+                            // single item role check
+                            if (isset($nav['roles']) && is_array($nav['roles']) && function_exists('user_role')) {
+                                $r = user_role();
+                                $role_name = is_object($r) && isset($r->name) ? $r->name : (is_array($r) && isset($r['name']) ? $r['name'] : $r);
+                                if (! in_array($role_name, $nav['roles'])) continue;
+                            }
                             echo '<li class="nav-item">';
                             $is_active = nav_is_active($nav['link'], $current_path, $current_full) ? ' active' : '';
                             echo '<a href="' . $nav['link'] . '" class="nav-link' . $is_active . '">';

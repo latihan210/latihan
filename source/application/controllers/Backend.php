@@ -10,6 +10,8 @@ class Backend extends CI_Controller
         if (!$this->session->userdata('logged_in')) {
             redirect('login');
         }
+        // load auth helper to get role info for menu separation
+        $this->load->helper('auth');
     }
 
     public function dashboard()
