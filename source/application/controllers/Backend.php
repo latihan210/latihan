@@ -18,6 +18,17 @@ class Backend extends CI_Controller
     {
         $data['title'] = TITLE . 'Dashboard';
         $data['main_content'] = 'dashboard';
+        // Provide member object expected by templates (keep templates unchanged)
+        $member_name = $this->session->userdata('member_name') ?: $this->session->userdata('user_name');
+        $member_username = $this->session->userdata('user_name') ?: strtolower($member_name);
+        $data['member'] = (object) [
+            'name' => $member_name,
+            'username' => $member_username,
+            'type' => defined('MEMBER') ? MEMBER : 'member',
+            'as_stockist' => $this->session->userdata('as_stockist') ?: 0
+        ];
+        $data['is_admin'] = (function_exists('is_admin') && is_admin());
+
         $this->load->view('partials/template', $data);
     }
 }

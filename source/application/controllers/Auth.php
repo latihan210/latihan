@@ -124,6 +124,15 @@ class Auth extends CI_Controller
 			'logged_in' => true
 		];
 
+		// Attach role object to session (used by auth_helper and templates)
+		$role = null;
+		if (isset($user->role_id) && $user->role_id) {
+			$role = $this->user->getRoleById($user->role_id);
+			if ($role) {
+				$session['role'] = $role;
+			}
+		}
+
 		// Regenerate session id on successful login to prevent session fixation.
 		if (method_exists($this->session, 'sess_regenerate')) {
 			$this->session->sess_regenerate(TRUE);
