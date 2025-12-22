@@ -383,12 +383,12 @@ $config['encryption_key'] = getenv('APP_KEY');
 | except for 'cookie_prefix' and 'cookie_httponly', which are ignored here.
 |
 */
-$config['sess_driver'] = 'files';
-$config['sess_save_path'] = NULL;
+$config['sess_driver'] = getenv('SESS_DRIVER') ?: ((getenv('APP_ENV') === 'production') ? 'database' : 'files');
+$config['sess_save_path'] = getenv('SESS_SAVE_PATH') ?: ((getenv('APP_ENV') === 'production') ? 'ci_sessions' : NULL); // for database driver set table name, for files set absolute path
 $config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 7200;
 $config['cookie_httponly'] = TRUE;
-$config['cookie_secure'] = FALSE; // nanti TRUE di production HTTPS
+$config['cookie_secure'] = (getenv('APP_ENV') === 'production'); // TRUE when APP_ENV=production
 $config['sess_samesite'] = 'Lax';
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;

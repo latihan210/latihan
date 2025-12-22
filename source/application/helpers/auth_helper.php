@@ -5,7 +5,10 @@ if (!function_exists('user_role')) {
     {
         $CI = &get_instance();
         $sess = $CI->session->userdata();
-        return isset($sess['role']) ? $sess['role'] : null;
+        // prefer full role object if present, otherwise fallback to role_name string
+        if (isset($sess['role']) && $sess['role']) return $sess['role'];
+        if (isset($sess['role_name']) && $sess['role_name']) return $sess['role_name'];
+        return null;
     }
 }
 

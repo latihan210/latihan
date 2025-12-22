@@ -5,7 +5,8 @@ $sidebar = array(
       'nav'   => 'menu',
       'link'  => base_url('menu'),
       'icon'  => 'bi bi-house',
-      'roles' => array(),
+      // visible to all authenticated users
+      'roles' => array('admin', 'user'),
       'sub'   => false,
    ),
    array(
@@ -13,14 +14,15 @@ $sidebar = array(
       'nav'   => 'member',
       'link'  => 'javascript:;',
       'icon'  => 'bi bi-person-fill',
-      'roles' => array(),
+      // admin manages members
+      'roles' => array('admin'),
       'sub'   => array(
          array(
             'title' => 'Add New Member',
             'nav'   => 'new_member',
             'link'  => base_url('member/new_member'),
             'icon'  => 'bi bi-person-fill-add',
-            'roles' => array(),
+            'roles' => array('admin'),
             'sub'   => false,
          ),
          array(
@@ -28,7 +30,7 @@ $sidebar = array(
             'nav'   => 'member_list',
             'link'  => base_url('member/member_list'),
             'icon'  => 'bi bi-person-lines-fill',
-            'roles' => array(),
+            'roles' => array('admin'),
             'sub'   => false,
          ),
       ),
@@ -38,14 +40,15 @@ $sidebar = array(
       'nav'   => 'laporan',
       'link'  => 'javascript:;',
       'icon'  => 'bi bi-file-earmark-text',
-      'roles' => array(),
+      // reports visible to admin and staff-level users
+      'roles' => array('admin'),
       'sub'   => array(
          array(
             'title' => 'Penjualan',
             'nav'   => 'penjualan',
             'link'  => base_url('laporan/penjualan'),
             'icon'  => 'bi bi-cart-check',
-            'roles' => array(),
+            'roles' => array('admin'),
             'sub'   => false,
          ),
          array(
@@ -53,7 +56,7 @@ $sidebar = array(
             'nav'   => 'stok',
             'link'  => base_url('laporan/stok'),
             'icon'  => 'bi bi-boxes',
-            'roles' => array(),
+            'roles' => array('admin'),
             'sub'   => false,
          ),
       ),
@@ -66,14 +69,15 @@ $menu_cms = array(
       'nav'   => 'settings',
       'link'  => 'javascript:;',
       'icon'  => 'bi bi-gear-fill',
-      'roles' => array(),
+      // CMS only for admin
+      'roles' => array('admin'),
       'sub'   => array(
          array(
             'title' => 'Role Setting',
             'nav'   => 'role_setting',
             'link'  => base_url('role/role_setting'),
             'icon'  => 'bi bi-person-fill-lock',
-            'roles' => array(),
+            'roles' => array('admin'),
             'sub'   => false,
          ),
          array(
@@ -81,7 +85,7 @@ $menu_cms = array(
             'nav'   => 'data_perusahaan',
             'link'  => base_url('role/data_perusahaan'),
             'icon'  => 'bi bi-house-gear-fill',
-            'roles' => array(),
+            'roles' => array('admin'),
             'sub'   => false,
          ),
       ),

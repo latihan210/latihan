@@ -1,22 +1,5 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-/*
-|--------------------------------------------------------------------------
-| Web Title
-|--------------------------------------------------------------------------
-*/
-
-defined('TITLE')           or define('TITLE', 'YSL - ');
-defined('COMPANY_NAME')    or define('COMPANY_NAME', 'YSL');
-defined('COMPANY_PHONE')   or define('COMPANY_PHONE', '085724060466');
-defined('COMPANY_EMAIL')   or define('COMPANY_EMAIL', 'solahudin21042002@gmail.com');
-defined('COMPANY_ADDRESS') or define('COMPANY_ADDRESS', 'Garut');
-defined('FAVICON')         or define('FAVICON', 'AdminLTELogo.png');
-defined('ASSETS_FOLDER')   or define('ASSETS_FOLDER', 'assets/');
-defined('ASSET_PATH')      or define('ASSET_PATH', (defined('BASE_URL') ? rtrim(BASE_URL, '/') : '') . '/assets');
-defined('VIEW_AUTH')       or define('VIEW_AUTH', 'auth/');
-defined('VIEW_BACKEND')    or define('VIEW_BACKEND', 'backend/');
-defined('VIEW_PARTIALS')    or define('VIEW_PARTIALS', 'partials/');
 
 /*
 |--------------------------------------------------------------------------
@@ -28,7 +11,7 @@ defined('VIEW_PARTIALS')    or define('VIEW_PARTIALS', 'partials/');
 | of this setting
 |
 */
-defined('SHOW_DEBUG_BACKTRACE') or define('SHOW_DEBUG_BACKTRACE', TRUE);
+defined('SHOW_DEBUG_BACKTRACE') or define('SHOW_DEBUG_BACKTRACE', (getenv('APP_ENV') === 'production') ? FALSE : TRUE);
 
 /*
 |--------------------------------------------------------------------------
@@ -100,3 +83,44 @@ defined('EXIT_USER_INPUT')     or define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       or define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      or define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      or define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+/*
+|--------------------------------------------------------------------------
+| Web Title
+|--------------------------------------------------------------------------
+*/
+defined('TITLE')           or define('TITLE', 'YSL - ');
+defined('COMPANY_NAME')    or define('COMPANY_NAME', 'YSL');
+defined('COMPANY_PHONE')   or define('COMPANY_PHONE', '085724060466');
+defined('COMPANY_EMAIL')   or define('COMPANY_EMAIL', 'solahudin21042002@gmail.com');
+defined('COMPANY_ADDRESS') or define('COMPANY_ADDRESS', 'Garut');
+
+/*-------------------------------------------------------------------------
+| Asset Path Settings
+|--------------------------------------------------------------------------
+*/
+defined('ASSETS_FOLDER')   or define('ASSETS_FOLDER', 'assets/');
+defined('ASSET_PATH')      or define('ASSET_PATH', (defined('BASE_URL') ? rtrim(BASE_URL, '/') : '') . '/assets');
+defined('FAVICON')         or define('FAVICON', 'AdminLTELogo.png');
+
+/*-------------------------------------------------------------------------
+| View Folder Settings
+|--------------------------------------------------------------------------
+*/
+defined('VIEW_AUTH')       or define('VIEW_AUTH', 'auth/');
+defined('VIEW_BACKEND')    or define('VIEW_BACKEND', 'backend/');
+defined('VIEW_PARTIALS')   or define('VIEW_PARTIALS', 'partials/');
+
+/*-------------------------------------------------------------------------
+| Member Type
+|--------------------------------------------------------------------------
+*/
+defined('ADMIN')  or define('ADMIN', 1);
+defined('MEMBER') or define('MEMBER', 2);
+
+/*-------------------------------------------------------------------------
+| Member Status
+|--------------------------------------------------------------------------
+*/
+defined('STATUS_INACTIVE') or define('STATUS_INACTIVE', 0);
+defined('STATUS_ACTIVE')   or define('STATUS_ACTIVE', 1);

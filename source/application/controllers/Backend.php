@@ -17,6 +17,8 @@ class Backend extends CI_Controller
     public function dashboard()
     {
         $data['title'] = TITLE . 'Dashboard';
+
+        // Use a single dashboard view. Menu and content are adjusted by view/helpers using session role info.
         $data['main_content'] = 'dashboard';
         // Provide member object expected by templates (keep templates unchanged)
         $member_name = $this->session->userdata('member_name') ?: $this->session->userdata('user_name');

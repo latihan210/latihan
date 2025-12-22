@@ -130,6 +130,10 @@ class Auth extends CI_Controller
 			$role = $this->user->getRoleById($user->role_id);
 			if ($role) {
 				$session['role'] = $role;
+				// also store a simple role name for faster checks in views/helpers
+				if (isset($role->name)) {
+					$session['role_name'] = $role->name;
+				}
 			}
 		}
 
