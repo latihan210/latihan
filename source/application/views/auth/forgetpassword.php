@@ -8,6 +8,17 @@
           </div>
 
           <form class="lockscreen-credentials" action="<?= base_url('forgetpassword'); ?>" method="post">
+
+            <div class="alert alert-danger error-validate" role="alert" style="line-height: 20px; text-align: center; display: none;">
+              <i class="mdi mdi-information-outline"></i>
+              <span style="font-size:12px;"> There are some errors, please check the form below !</span>
+            </div>
+
+            <div class="alert alert-success success-validate" role="alert" style="line-height: 20px; text-align: center; display: none;">
+              <i class="mdi mdi-information-outline"></i>
+              <span style="font-size:12px;"> </span>
+            </div>
+
             <div class="input-group">
               <input type="email" class="form-control shadow-none <?= form_error('email') ? 'is-invalid' : '' ?>" name="email" placeholder="Email" title="<?= strip_tags(form_error('email')) ?>" value="<?= set_value('email') ?>" />
               <div class="input-group-text border-0 bg-transparent px-1">

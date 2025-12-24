@@ -7,6 +7,17 @@
       <p class="register-box-msg">Register a new membership</p>
 
       <form action="<?= base_url('register'); ?>" method="post" enctype="multipart/form-data">
+
+        <div class="alert alert-danger error-validate" role="alert" style="line-height: 20px; text-align: center; display: none;">
+          <i class="mdi mdi-information-outline"></i>
+          <span style="font-size:12px;"> There are some errors, please check the form below !</span>
+        </div>
+
+        <div class="alert alert-success success-validate" role="alert" style="line-height: 20px; text-align: center; display: none;">
+          <i class="mdi mdi-information-outline"></i>
+          <span style="font-size:12px;"> </span>
+        </div>
+
         <div class="input-group mb-3">
           <input type="text" class="form-control <?= form_error('name') ? 'is-invalid' : '' ?>" name="name" placeholder="Name" title="<?= strip_tags(form_error('name')) ?>" value="<?= set_value('name') ?>" />
           <div class="input-group-text">

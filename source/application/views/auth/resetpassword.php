@@ -9,6 +9,17 @@
                         <img src="<?= ASSET_PATH; ?>/img/AdminLTELogo.png" alt="User Image" />
                     </div>
                     <form class="lockscreen-credentials" action="<?= base_url('reset/' . $token); ?>" method="post">
+
+                        <div class="alert alert-danger error-validate" role="alert" style="line-height: 20px; text-align: center; display: none;">
+                            <i class="mdi mdi-information-outline"></i>
+                            <span style="font-size:12px;"> There are some errors, please check the form below !</span>
+                        </div>
+
+                        <div class="alert alert-success success-validate" role="alert" style="line-height: 20px; text-align: center; display: none;">
+                            <i class="mdi mdi-information-outline"></i>
+                            <span style="font-size:12px;"> </span>
+                        </div>
+
                         <div class="input-group">
                             <input type="password" class="form-control shadow-none <?= form_error('password') ? 'is-invalid' : '' ?>" name="password" placeholder="Enter new password" title="<?= strip_tags(form_error('password')) ?>" value="<?= set_value('email') ?>" />
                             <div class="input-group-text border-0 bg-transparent px-1">
